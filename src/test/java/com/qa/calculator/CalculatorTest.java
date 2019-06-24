@@ -27,5 +27,10 @@ public class CalculatorTest {
 		int result = calculator.multiply(4,4);
 		Assert.assertEquals(16,  result);
 	}
-
+	@Test
+	public void divideTwoNumbersTogetherTest() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(4,4);
+		Assert.assertEquals(1,  result);
+	}
 }
